@@ -1,5 +1,6 @@
 " Configuration for NERDTree Plugin
 let g:NERDTreeChDirMode = 1
+let NERDTreeShowHidden = 1
 let g:NERDTreeGitStatusWithFlags = 1
 map <F2> :NERDTreeToggle<CR>
 autocmd StdinReadPre * let s:std_in=1
