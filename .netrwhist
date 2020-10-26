@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
-let g:netrw_dirhist_7='/home/nabby27/Documents/projects/ubuntu_setup/scripts'
-let g:netrw_dirhist_6='/home/nabby27/Documents/projects/ubuntu_setup'
-let g:netrw_dirhist_5='/home/nabby27/Documents/projects/ubuntu_setup/scripts'
-let g:netrw_dirhist_4='/home/nabby27/Documents/projects/ubuntu_setup'
-let g:netrw_dirhist_3='/home/nabby27/Documents'
-let g:netrw_dirhist_2='/home/nabby27/Documents/projects/ubuntu_setup/scripts'
-let g:netrw_dirhist_1='/home/nabby27/Documents/projects/ubuntu_setup'
