@@ -22,20 +22,20 @@ Plug 'ryanoasis/vim-devicons'
 " Plug 'ryanoasis/vim-webdevicons'
 call plug#end()
 
-source ./config.vim 
-source ./mapping.vim
-source ./plugins/airline.vim
-source ./plugins/nerd-tree.vim
-source ./plugins/indent-line.vim
-source ./plugins/indent-line.vim
-source ./plugins/deoplete.vim
-source ./plugins/deoplete-ternjs.vim
-source ./plugins/nvim-typescript.vim
-source ./plugins/supertab.vim
-source ./plugins/echodoc.vim
-source ./plugins/ale.vim
-source ./plugins/nerd-tree-git.vim
-source ./plugins/vim-gitgutter.vim
-source ./plugins/blamer.vim
-source ./plugins/nerd-commenter.vim
+source ~/.config/nvim/config.vim 
+source ~/.config/nvim/mapping.vim
+source ~/.config/nvim/plugins/airline.vim
+source ~/.config/nvim/plugins/nerd-tree/init.vim
+source ~/.config/nvim/plugins/indent-line.vim
+source ~/.config/nvim/plugins/indent-line.vim
+source ~/.config/nvim/plugins/deoplete.vim
+source ~/.config/nvim/plugins/deoplete-ternjs.vim
+source ~/.config/nvim/plugins/nvim-typescript.vim
+source ~/.config/nvim/plugins/supertab.vim
+source ~/.config/nvim/plugins/echodoc.vim
+source ~/.config/nvim/plugins/ale.vim
+source ~/.config/nvim/plugins/nerd-tree-git.vim
+source ~/.config/nvim/plugins/vim-gitgutter.vim
+source ~/.config/nvim/plugins/blamer.vim
+source ~/.config/nvim/plugins/nerd-commenter.vim
 

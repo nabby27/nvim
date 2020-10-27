@@ -1,4 +1,6 @@
 " Configuration for nerdtree-git Plugin
+
+let g:NERDTreeGitStatusConcealBrackets = 1 " Hide brackets ([])
 let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Modified'  :'✹',
                 \ 'Staged'    :'✚',
@@ -11,6 +13,4 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
-let g:NERDTreeGitStatusConcealBrackets = 1 " Hide brackets ([])
-
 
