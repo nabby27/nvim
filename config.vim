@@ -20,7 +20,7 @@ set background=dark
 set conceallevel=1
 set hid
 set scrolloff=10
-set guifont=Source\ Code\ Pro\ for\ Powerline
+set guifont=Hack\ Nerd\ Font:h11
 " set guifont=IBM\ Plex\ Mono:h11
 " set gfn=IBM\ Plex\ Mono:h11
 set guioptions-=m  "remove menu bar
