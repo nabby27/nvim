@@ -19,6 +19,8 @@ set termguicolors
 set background=dark
 set conceallevel=1
 set hid
+set undofile
+set undodir=~/.config/nvim/undodir
 set scrolloff=10
 set guifont=Hack\ Nerd\ Font:h11
 set guioptions-=m  "remove menu bar
