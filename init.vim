@@ -1,6 +1,8 @@
 let g:mapleader = ' '
 
 call plug#begin('~/.local/share/nvim/plugged')
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
@@ -24,18 +26,17 @@ call plug#end()
 
 source ~/.config/nvim/config.vim 
 source ~/.config/nvim/mapping.vim
-source ~/.config/nvim/plugins/airline.vim
+source ~/.config/nvim/plugins/airline/init.vim
+source ~/.config/nvim/plugins/ale/init.vim
+source ~/.config/nvim/plugins/blamer/init.vim
+source ~/.config/nvim/plugins/deoplete-ternjs/init.vim
+source ~/.config/nvim/plugins/deoplete/init.vim
+source ~/.config/nvim/plugins/echodoc/init.vim
+source ~/.config/nvim/plugins/indent-line/init.vim
+source ~/.config/nvim/plugins/nerd-commenter/init.vim
+source ~/.config/nvim/plugins/nerd-tree-git/init.vim
 source ~/.config/nvim/plugins/nerd-tree/init.vim
-source ~/.config/nvim/plugins/indent-line.vim
-source ~/.config/nvim/plugins/indent-line.vim
-source ~/.config/nvim/plugins/deoplete.vim
-source ~/.config/nvim/plugins/deoplete-ternjs.vim
-source ~/.config/nvim/plugins/nvim-typescript.vim
-source ~/.config/nvim/plugins/supertab.vim
-source ~/.config/nvim/plugins/echodoc.vim
-source ~/.config/nvim/plugins/ale.vim
-source ~/.config/nvim/plugins/nerd-tree-git.vim
-source ~/.config/nvim/plugins/vim-gitgutter.vim
-source ~/.config/nvim/plugins/blamer.vim
-source ~/.config/nvim/plugins/nerd-commenter.vim
+source ~/.config/nvim/plugins/nvim-typescript/init.vim
+source ~/.config/nvim/plugins/supertab/init.vim
+source ~/.config/nvim/plugins/vim-gitgutter/init.vim
 

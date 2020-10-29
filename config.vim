@@ -6,7 +6,7 @@ set nocompatible
 set encoding=utf-8
 set nowrap
 set cursorline
-set cursorcolumn
+" set cursorcolumn
 set shiftwidth=2
 set tabstop=2
 set shiftround
@@ -21,8 +21,6 @@ set conceallevel=1
 set hid
 set scrolloff=10
 set guifont=Hack\ Nerd\ Font:h11
-" set guifont=IBM\ Plex\ Mono:h11
-" set gfn=IBM\ Plex\ Mono:h11
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
